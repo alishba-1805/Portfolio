@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
+    <meta name="description" content="Alishba Inam — Cybersecurity student & SOC Analyst specializing in defensive security, digital forensics, and incident response. View my portfolio, projects, and certifications.">
+    <meta name="author" content="Alishba Inam">
+    <title>Alishba Inam — Cybersecurity & SOC Analyst Portfolio</title>
     
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     
-    <link rel="stylesheet" href="assests/css/style.css">
-    <link rel="stylesheet" href="assests/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
 
     <!-- Animated Background Orbs -->
     <div class="background-orbs">
@@ -47,14 +55,14 @@
             <div class="hero-content">
                 <!-- Left Side: Image -->
                 <div class="hero-image">
-                    <img src="assests/images/Untitled-1@3x.png" alt="Alishba Inam">
+                    <img src="assets/images/Untitled-1@3x.png" alt="Alishba Inam">
                 </div>
 
                 <!-- Center: Text Content -->
                 <div class="hero-text">
                     <p class="greeting animate-fade-in">Hi, I'm</p>
                     <h1 class="hero-name animate-glow typewriter" data-text="Alishba Inam"></h1>
-                    <p class="hero-tag animate-slide-up">Cyber Security Student · SOC &amp; Defensive Security</p>
+                    <p class="hero-tag animate-slide-up">Cybersecurity Student | SOC Analyst | Blue Team Specialist</p>
                     <a href="#contact" class="hero-btn animate-fade-in-delay-2">Hire Me →</a>
                 </div>
 
@@ -62,7 +70,7 @@
                 <div class="scroll-down">
                     <span>Scroll Down</span>
                     <div class="scroll-icon">
-                        <i class="ri-arrow-down-line"></i>
+                        <i class="ri-arrow-up-line"></i>
                     </div>
                 </div>
 
@@ -71,7 +79,7 @@
                     <span class="follow-text">Follow On</span>
                     <div class="social-divider"></div>
                     <a href="https://github.com/alishba-1805" target="_blank" title="GitHub"><i class="ri-github-fill"></i></a>
-                    <a href="https://www.linkedin.com/in/alishba-inam-75a25b2a6/" target="_blank" title="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+                    <a href="https://linkedin.com/in/alishba-inam" target="_blank" title="LinkedIn"><i class="ri-linkedin-fill"></i></a>
                     <a href="https://twitter.com/yourusername" target="_blank" title="Twitter"><i class="ri-twitter-x-line"></i></a>
                 </div>
             </div>
@@ -89,12 +97,12 @@
             <div class="about-content">
                 <div class="about-right">
                     <div class="about-intro">
-                        <h3 class="about-heading">I'm a <span class="highlight">Cyber Security Student & SOC Analyst</span></h3>
+                        <h3 class="about-heading">I'm a <span class="highlight">Cybersecurity Student & SOC Analyst</span></h3>
                         <p class="about-text">
-                            I'm a dedicated cybersecurity student at <strong>FAST NUCES Islamabad</strong> with a focus on defensive security, threat detection, and incident response. I specialize in <strong>SOC operations, log analysis, and digital forensics</strong>, constantly sharpening my skills through real-world challenges and security labs.
+                            Cybersecurity undergraduate at <strong>FAST NUCES</strong> specializing in <strong>Security Operations Center (SOC) operations, Digital Forensics and Incident Response (DFIR)</strong>, and proactive threat detection. Hands-on experience triaging 50+ daily SIEM alerts using Wazuh and Splunk, correlating events against MITRE ATT&CK TTPs, and analysing endpoint telemetry to identify indicators of compromise (IOCs).
                         </p>
                         <p class="about-text">
-                            My toolkit includes <strong>Wireshark, Splunk, Windows Event Logs, Sysmon, and Hack The Box CDSA</strong>. I actively participate in <strong>CTF competitions</strong>, excelling in <strong>Digital Forensics, OSINT, and Cryptography</strong>. Every challenge is an opportunity to learn, adapt, and grow stronger in the cybersecurity landscape.
+                            Active <strong>CTF competitor</strong> with national-level placements (2nd at RDX National CTF, 3rd at SudoFuzzers) and author of a hard-level NASCON 2026 Digital Forensics challenge. Complementary experience building secure full-stack applications with hardened authentication, audit logging, and field-level encryption. Pursuing <strong>CDSA (Hack The Box)</strong> and <strong>SOC Analyst Learning Path (Let's Defend)</strong> certifications.
                         </p>
                     </div>
 
@@ -115,13 +123,13 @@
 
                     <div class="about-actions">
                         <a href="#contact" class="about-btn primary-btn">Hire Me →</a>
-                        <a href="assests/pdf/cv.pdf" download class="about-btn secondary-btn">Download CV</a>
+                        <a href="assets/pdf/Alishba_Inam_CYS.pdf" download class="about-btn secondary-btn">Download CV</a>
                     </div>
                 </div>
 
                 <div class="about-left">
                     <div class="about-image-wrapper">
-                        <img src="assests/images/1.jpeg" alt="Alishba Inam" class="about-image">
+                        <img src="assets/images/1.jpeg" alt="Alishba Inam" class="about-image">
                     </div>
                 </div>
             </div>
@@ -181,9 +189,17 @@
                     <i class="ri-briefcase-line"></i>
                     <span>Experience</span>
                 </button>
+                <button class="resume-tab" data-tab="leadership">
+                    <i class="ri-team-line"></i>
+                    <span>Leadership</span>
+                </button>
+                <button class="resume-tab" data-tab="achievements">
+                    <i class="ri-trophy-line"></i>
+                    <span>Achievements</span>
+                </button>
                 <button class="resume-tab" data-tab="skills">
                     <i class="ri-tools-line"></i>
-                    <span>Personal Skills</span>
+                    <span>Skills</span>
                 </button>
             </div>
 
@@ -197,10 +213,10 @@
                                 <i class="ri-graduation-cap-fill"></i>
                             </div>
                             <div class="timeline-content">
-                                <span class="timeline-date">2024 – Present</span>
+                                <span class="timeline-date">2024 – 2028</span>
                                 <h4 class="timeline-title">Bachelor of Science in Cyber Security</h4>
-                                <p class="timeline-institution">FAST NUCES, Islamabad</p>
-                                <p class="timeline-desc">Currently studying core concepts of Cyber Security including Computer Networks, Cryptography, SOC Operations, Programming, and Discrete Structures.</p>
+                                <p class="timeline-institution">FAST National University of Computer and Emerging Sciences, Islamabad</p>
+                                <p class="timeline-desc">Relevant Coursework: Cybersecurity-I, Computer Networks, Software Engineering.</p>
                             </div>
                         </div>
 
@@ -215,16 +231,7 @@
                             </div>
                         </div>
 
-                        <div class="timeline-item">
-                            <div class="timeline-icon">
-                                <i class="ri-school-line"></i>
-                            </div>
-                            <div class="timeline-content">
-                                <span class="timeline-date">2020 – 2022</span>
-                                <h4 class="timeline-title">Matriculation</h4>
-                                <p class="timeline-institution">Nishat School, Multan</p>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
 
@@ -233,48 +240,122 @@
                     <div class="timeline">
                         <div class="timeline-item">
                             <div class="timeline-icon">
-                                <i class="ri-flask-line"></i>
+                                <i class="ri-shield-user-line"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">February 2026 – March 2026</span>
+                                <h4 class="timeline-title">SOC Analyst Intern</h4>
+                                <p class="timeline-institution">Tech Hierarchy</p>
+                                <ul class="timeline-list">
+                                    <li>Triaged and escalated 50+ daily SIEM alerts using Wazuh and Splunk, applying MITRE ATT&CK framework to classify threats, reduce false-positive noise by 25%, and escalate confirmed incidents per defined SOC runbooks and playbooks.</li>
+                                    <li>Analyzed endpoint telemetry, network logs, and system behavior to identify Indicators of Compromise (IOCs), supporting the full incident response lifecycle from detection through remediation; documented findings in structured reports for Tier 2 handoff.</li>
+                                    <li>Designed and configured SOC lab environments simulating real-world attack scenarios (lateral movement, privilege escalation, persistence mechanisms), validating EDR/IDS detection rules and improving incident response workflows.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="ri-terminal-window-line"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2026</span>
+                                <h4 class="timeline-title">Digital Forensics Challenge Creator</h4>
+                                <p class="timeline-institution">NASCON 2026, FAST NUCES Islamabad</p>
+                                <ul class="timeline-list">
+                                    <li>Designed a hard-level forensic CTF challenge involving a compromised Windows 10 disk image, malicious macro-enabled Word document, PowerShell payloads, NTFS alternate data streams, and multiple persistence mechanisms - completed by fewer than 10% of participants.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="ri-presentation-line"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">January 2026 – Present</span>
+                                <h4 class="timeline-title">Teaching Assistant</h4>
+                                <p class="timeline-institution">FAST NUCES Islamabad</p>
+                                <ul class="timeline-list">
+                                    <li>Supported course delivery by assisting students and helping maintain an effective classroom workflow.</li>
+                                    <li>Prepared documentation and supported assignment review, feedback, and coordination with the instructor to keep academic tasks organized.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Leadership Tab -->
+                <div class="resume-tab-content" id="leadership">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="ri-team-line"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2025 – Present</span>
+                                <h4 class="timeline-title">Head of Finance</h4>
+                                <p class="timeline-institution">Cyber Space Legion | University Cybersecurity Society</p>
+                                <ul class="timeline-list">
+                                    <li>Led finance team for flagship cybersecurity events, managed sponsor relations, negotiated with company representatives, and oversaw budgeting and financial reporting.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="ri-user-star-line"></i>
                             </div>
                             <div class="timeline-content">
                                 <span class="timeline-date">2024 – Present</span>
-                                <h4 class="timeline-title">Practical Labs & Hands-On Training</h4>
-                                <p class="timeline-institution">TryHackMe, Hack The Box, HTB Sherlocks</p>
+                                <h4 class="timeline-title">Technical Team Member</h4>
+                                <p class="timeline-institution">Cyber Space Legion | University Cybersecurity Society</p>
                                 <ul class="timeline-list">
-                                    <li><strong>SOC Practical Lab (TryHackMe SOC Level 1):</strong> Monitored simulated enterprise networks, analyzed log files and SIEM alerts, learned SOC analyst workflow and alert triage</li>
-                                    <li><strong>Blue Team Investigation Lab (HTB Sherlocks):</strong> Analyzed memory dumps, Windows event logs, and network captures for digital forensics methodology</li>
-                                    <li><strong>Seasonal DFIR Challenge (Advent of the Relics):</strong> Completed forensic challenges across Windows, Linux, and cloud environments with timeline analysis</li>
+                                    <li>Participated in national and local CTF competitions, authored forensics and OSINT challenges for society-hosted events and delivered technical workshops to junior members.</li>
                                 </ul>
                             </div>
                         </div>
+                    </div>
+                </div>
 
+                <!-- Achievements Tab -->
+                <div class="resume-tab-content" id="achievements">
+                    <div class="timeline">
                         <div class="timeline-item">
                             <div class="timeline-icon">
-                                <i class="ri-graduation-cap-line"></i>
+                                <i class="ri-medal-line"></i>
                             </div>
                             <div class="timeline-content">
-                                <span class="timeline-date">2024</span>
-                                <h4 class="timeline-title">Network Security Capstone Project</h4>
-                                <p class="timeline-institution">FAST NUCES — University Lab</p>
+                                <span class="timeline-date">2025</span>
+                                <h4 class="timeline-title">2nd Place - RDX National CTF</h4>
+                                <p class="timeline-institution">RDX</p>
                                 <ul class="timeline-list">
-                                    <li>Monitored university lab network during controlled penetration testing exercises</li>
-                                    <li>Analyzed real-time alerts, traffic anomalies, and access patterns</li>
-                                    <li>Coordinated with red team members and documented structured security reports</li>
+                                    <li>Secured 2nd place in a national-level Capture The Flag competition, demonstrating strong forensics, OSINT, and network analysis skills under time-constrained conditions.</li>
                                 </ul>
                             </div>
                         </div>
-
                         <div class="timeline-item">
                             <div class="timeline-icon">
-                                <i class="ri-award-line"></i>
+                                <i class="ri-medal-2-line"></i>
                             </div>
                             <div class="timeline-content">
-                                <span class="timeline-date">2024 – 2025</span>
-                                <h4 class="timeline-title">CTF Competitions & Achievements</h4>
-                                <p class="timeline-institution">SudoFuzzers, CyberFest, RDX CTF</p>
+                                <span class="timeline-date">2025</span>
+                                <h4 class="timeline-title">3rd Place - SudoFuzzers CTF</h4>
+                                <p class="timeline-institution">SudoFuzzers</p>
                                 <ul class="timeline-list">
-                                    <li><strong>3rd Position — SudoFuzzers CTF:</strong> Excelled in forensics challenges and log analysis under time pressure</li>
-                                    <li><strong>7th Position — CyberFest '25:</strong> Demonstrated incident response scenario problem-solving</li>
-                                    <li><strong>Top 3 — RDX CTF 2024:</strong> Completed forensics challenges and log-based incident scenarios with applied cyber security concepts</li>
+                                    <li>Ranked 3rd out of 50+ teams solving complex digital forensics and OSINT challenges under a 4-hour time constraint, placing in the top 6% of all participants.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="ri-award-fill"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2025</span>
+                                <h4 class="timeline-title">7th Place - CyberFest 2025</h4>
+                                <p class="timeline-institution">National CTF</p>
+                                <ul class="timeline-list">
+                                    <li>Achieved top-tier ranking among 100+ competing teams in a highly competitive national CTF event, finishing in the top 7% across forensics, OSINT, and network analysis.</li>
                                 </ul>
                             </div>
                         </div>
@@ -285,73 +366,90 @@
                 <div class="resume-tab-content" id="skills">
                     <div class="skills-grid">
                         <div class="skill-category">
-                            <h4 class="skill-category-title"><i class="ri-shield-check-line"></i> SOC & Blue Team</h4>
+                            <h4 class="skill-category-title"><i class="ri-shield-check-line"></i> Security Operations</h4>
                             <div class="skill-items">
-                                <span class="skill-tag">Threat Monitoring</span>
+                                <span class="skill-tag">SOC Operations</span>
                                 <span class="skill-tag">Alert Triage</span>
                                 <span class="skill-tag">Incident Response</span>
-                                <span class="skill-tag">Threat Intelligence</span>
-                                <span class="skill-tag">Security Event Analysis</span>
+                                <span class="skill-tag">DFIR</span>
+                                <span class="skill-tag">Threat Detection</span>
+                                <span class="skill-tag">Threat Hunting</span>
+                                <span class="skill-tag">Log Analysis</span>
+                                <span class="skill-tag">IOC Analysis</span>
+                                <span class="skill-tag">MITRE ATT&CK</span>
+                                <span class="skill-tag">Playbook Execution</span>
                                 <span class="skill-tag">Escalation Procedures</span>
                             </div>
                         </div>
 
                         <div class="skill-category">
-                            <h4 class="skill-category-title"><i class="ri-database-2-line"></i> Log Analysis & SIEM</h4>
+                            <h4 class="skill-category-title"><i class="ri-tools-line"></i> SIEM & Security Tools</h4>
                             <div class="skill-items">
-                                <span class="skill-tag">Log Management</span>
-                                <span class="skill-tag">Event Correlation</span>
-                                <span class="skill-tag">Correlation Rules</span>
-                                <span class="skill-tag">Event Investigation</span>
-                                <span class="skill-tag">Dashboard Creation</span>
-                                <span class="skill-tag">Query Languages</span>
-                                <span class="skill-tag">Alert Tuning</span>
-                            </div>
-                        </div>
-
-                        <div class="skill-category">
-                            <h4 class="skill-category-title"><i class="ri-tools-line"></i> Security Tools</h4>
-                            <div class="skill-items">
-                                <span class="skill-tag">SIEM Platforms</span>
+                                <span class="skill-tag">Wazuh</span>
+                                <span class="skill-tag">Splunk</span>
+                                <span class="skill-tag">Elastic Stack</span>
                                 <span class="skill-tag">Wireshark</span>
-                                <span class="skill-tag">Kali Linux</span>
-                                <span class="skill-tag">Digital Forensics Tools</span>
-                                <span class="skill-tag">Endpoint Detection</span>
-                                <span class="skill-tag">Network Analyzers</span>
-                                <span class="skill-tag">Vulnerability Scanners</span>
+                                <span class="skill-tag">Helmet.js</span>
+                                <span class="skill-tag">reCAPTCHA</span>
+                                <span class="skill-tag">Linux</span>
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">Git</span>
                             </div>
                         </div>
 
                         <div class="skill-category">
-                            <h4 class="skill-category-title"><i class="ri-server-line"></i> Technical Foundations</h4>
+                            <h4 class="skill-category-title"><i class="ri-lock-line"></i> Security Concepts</h4>
                             <div class="skill-items">
-                                <span class="skill-tag">Linux Administration</span>
-                                <span class="skill-tag">Network Protocols</span>
-                                <span class="skill-tag">TCP/IP Stack</span>
-                                <span class="skill-tag">Git Version Control</span>
-                                <span class="skill-tag">Virtual Environments</span>
+                                <span class="skill-tag">EDR</span>
+                                <span class="skill-tag">IDS/IPS</span>
+                                <span class="skill-tag">Network Security</span>
+                                <span class="skill-tag">Digital Forensics</span>
+                                <span class="skill-tag">RBAC</span>
+                                <span class="skill-tag">JWT Authentication</span>
+                                <span class="skill-tag">CSRF Protection</span>
+                                <span class="skill-tag">Rate Limiting</span>
+                                <span class="skill-tag">NoSQL Injection Prevention</span>
+                                <span class="skill-tag">Field-Level Encryption</span>
+                                <span class="skill-tag">Audit Logging</span>
                             </div>
                         </div>
 
                         <div class="skill-category">
-                            <h4 class="skill-category-title"><i class="ri-code-line"></i> Programming Languages</h4>
+                            <h4 class="skill-category-title"><i class="ri-global-line"></i> Networking</h4>
+                            <div class="skill-items">
+                                <span class="skill-tag">TCP/IP</span>
+                                <span class="skill-tag">OSPF</span>
+                                <span class="skill-tag">EIGRP</span>
+                                <span class="skill-tag">RIPv2</span>
+                                <span class="skill-tag">VLSM</span>
+                                <span class="skill-tag">NAT</span>
+                                <span class="skill-tag">ACLs</span>
+                                <span class="skill-tag">DHCP</span>
+                                <span class="skill-tag">DNS</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h4 class="skill-category-title"><i class="ri-code-s-slash-line"></i> Programming Languages</h4>
                             <div class="skill-items">
                                 <span class="skill-tag">Python</span>
                                 <span class="skill-tag">C++</span>
                                 <span class="skill-tag">JavaScript</span>
-                                <span class="skill-tag">HTML</span>
-                                <span class="skill-tag">CSS</span>
+                                <span class="skill-tag">x86 Assembly</span>
+                                <span class="skill-tag">Bash</span>
                             </div>
                         </div>
 
                         <div class="skill-category">
-                            <h4 class="skill-category-title"><i class="ri-layout-grid-line"></i> Development & Analysis</h4>
+                            <h4 class="skill-category-title"><i class="ri-window-line"></i> Web & Dev Tools</h4>
                             <div class="skill-items">
-                                <span class="skill-tag">VS Code</span>
-                                <span class="skill-tag">Linux CLI</span>
-                                <span class="skill-tag">Git</span>
-                                <span class="skill-tag">Virtual Machines</span>
-                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">Express.js</span>
+                                <span class="skill-tag">MongoDB</span>
+                                <span class="skill-tag">Tailwind CSS</span>
+                                <span class="skill-tag">HTML</span>
+                                <span class="skill-tag">CSS</span>
                             </div>
                         </div>
                     </div>
@@ -379,18 +477,18 @@
                     <!-- Project 1 -->
                     <div class="project-card active">
                         <div class="project-content">
-                            <h3 class="project-title">Smart Housing Society Website</h3>
-                            <p class="project-subtitle">Full Stack Web App</p>
-                            <p class="project-desc">NextGen Residency - A comprehensive housing society management system built on the MERN stack. Features role-based portals for Residents, Admins, and Vendors to streamline complaints, facility booking, and community management.</p>
+                            <h3 class="project-title">NextGen Residency</h3>
+                            <p class="project-subtitle">Smart Housing Platform</p>
+                            <p class="project-desc">Implemented hardened backend API with Helmet.js security headers, CSRF protection, rate limiting with progressive delays, and NoSQL injection prevention via input sanitization. Integrated Two-Factor Authentication (TOTP) with backup codes, Google reCAPTCHA v2, and bcrypt password hashing for multi-layered auth security. Implemented audit logging, field-level encryption, and security event monitoring for compliance-grade data protection and incident traceability.</p>
                             <div class="project-tags">
                                 <span class="project-tag">React</span>
                                 <span class="project-tag">Node.js</span>
+                                <span class="project-tag">Express.js</span>
                                 <span class="project-tag">MongoDB</span>
-                                <span class="project-tag">+2</span>
                             </div>
                             <div class="project-links">
-                                <a href="#" class="project-link">Live Site →</a>
-                                <a href="#" class="project-link">GitHub →</a>
+                                <a href="https://nextgen-residency.vercel.app/" target="_blank" class="project-link">Live Site →</a>
+                                <a href="https://github.com/alishba-1805/Smart-Housing-Society-Website" target="_blank" class="project-link">GitHub →</a>
                             </div>
                         </div>
                     </div>
@@ -398,17 +496,16 @@
                     <!-- Project 2 -->
                     <div class="project-card">
                         <div class="project-content">
-                            <h3 class="project-title">OSIM - Organizational Simulation</h3>
-                            <p class="project-subtitle">OOP Semester Project</p>
-                            <p class="project-desc">Organizational Simulation and Internal Management System developed for CS-1004 Object Oriented Programming (Spring 2025). A C++ application demonstrating advanced OOP concepts including inheritance, polymorphism, and encapsulation.</p>
+                            <h3 class="project-title">Enterprise Multi-Area Network</h3>
+                            <p class="project-subtitle">Cisco Packet Tracer</p>
+                            <p class="project-desc">Engineered enterprise-grade multi-area network topology with 11 LANs, 22 WAN links across 19 routers, implementing mutual route redistribution. Secured traffic with Static NAT for public IP translation and Extended ACLs enforcing strict host and subnet-level security policies. Designed VLSM addressing scheme for 1M+ hosts; configured DHCP relay agents, DNS, and SMTP/POP3 email servers.</p>
                             <div class="project-tags">
-                                <span class="project-tag">C++</span>
-                                <span class="project-tag">OOP</span>
-                                <span class="project-tag">File Handling</span>
-                                <span class="project-tag">+1</span>
+                                <span class="project-tag">OSPF</span>
+                                <span class="project-tag">EIGRP</span>
+                                <span class="project-tag">RIPv2</span>
                             </div>
                             <div class="project-links">
-                                <a href="#" class="project-link">GitHub →</a>
+                                <a href="https://github.com/alishba-1805/Multi-Area-Network-Design-Implementation" target="_blank" class="project-link">GitHub →</a>
                             </div>
                         </div>
                     </div>
@@ -416,17 +513,17 @@
                     <!-- Project 3 -->
                     <div class="project-card">
                         <div class="project-content">
-                            <h3 class="project-title">SecureShop</h3>
-                            <p class="project-subtitle">Programming Fundamentals</p>
-                            <p class="project-desc">A Simulated Secure Shopping Platform built in C++ as a Programming Fundamentals project. Implements secure user authentication, product management, and transaction processing with data validation.</p>
+                            <h3 class="project-title">Cybersecurity Portfolio Website</h3>
+                            <p class="project-subtitle">HTML, CSS, JavaScript</p>
+                            <p class="project-desc">Designed a professional cybersecurity-themed portfolio showcasing SOC skills, certifications, and hands-on security experience.</p>
                             <div class="project-tags">
-                                <span class="project-tag">C++</span>
-                                <span class="project-tag">File I/O</span>
-                                <span class="project-tag">Authentication</span>
-                                <span class="project-tag">+1</span>
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
                             </div>
                             <div class="project-links">
-                                <a href="#" class="project-link">GitHub →</a>
+                                <a href="https://alishba18-portfolio.vercel.app" class="project-link">Live Site →</a>
+                                <a href="https://github.com/alishba-1805" class="project-link">GitHub →</a>
                             </div>
                         </div>
                     </div>
@@ -434,17 +531,16 @@
                     <!-- Project 4 -->
                     <div class="project-card">
                         <div class="project-content">
-                            <h3 class="project-title">Xonix Game</h3>
-                            <p class="project-subtitle">Data Structures Project</p>
-                            <p class="project-desc">Classic Xonix arcade game recreated in C++ using data structure concepts. Features smooth gameplay mechanics, collision detection, and progressive difficulty levels.</p>
+                            <h3 class="project-title">Dizzy Walk</h3>
+                            <p class="project-subtitle">Maze Adventure Game</p>
+                            <p class="project-desc">Developed real-time graphical game in 2,700+ lines of x86 Assembly with custom data structures and low-level memory management using MASM32 and Win32 API.</p>
                             <div class="project-tags">
-                                <span class="project-tag">C++</span>
-                                <span class="project-tag">Data Structures</span>
-                                <span class="project-tag">Game Logic</span>
-                                <span class="project-tag">+1</span>
+                                <span class="project-tag">x86 Assembly</span>
+                                <span class="project-tag">Win32 API</span>
+                                <span class="project-tag">MASM32</span>
                             </div>
                             <div class="project-links">
-                                <a href="#" class="project-link">GitHub →</a>
+                                <a href="https://github.com/alishba-1805/Dizzy-Walk" target="_blank" class="project-link">GitHub →</a>
                             </div>
                         </div>
                     </div>
@@ -452,17 +548,16 @@
                     <!-- Project 5 -->
                     <div class="project-card">
                         <div class="project-content">
-                            <h3 class="project-title">Sonic Website</h3>
-                            <p class="project-subtitle">Frontend Project</p>
-                            <p class="project-desc">A themed website project featuring custom CSS animations and styling. Demonstrates proficiency in modern CSS techniques and responsive design principles.</p>
+                            <h3 class="project-title">SecureShop</h3>
+                            <p class="project-subtitle">C++, File I/O</p>
+                            <p class="project-desc">Constructed a secure shopping platform with user authentication, input validation, and secure data handling; created modular architecture supporting scalable inventory management.</p>
                             <div class="project-tags">
-                                <span class="project-tag">HTML</span>
-                                <span class="project-tag">CSS</span>
-                                <span class="project-tag">Responsive Design</span>
+                                <span class="project-tag">C++</span>
+                                <span class="project-tag">File I/O</span>
+                                <span class="project-tag">Authentication</span>
                             </div>
                             <div class="project-links">
-                                <a href="#" class="project-link">Live Site →</a>
-                                <a href="#" class="project-link">GitHub →</a>
+                                <a href="https://github.com/alishba-1805/Xonix-Game-" target="_blank" class="project-link">GitHub →</a>
                             </div>
                         </div>
                     </div>
@@ -470,17 +565,16 @@
                     <!-- Project 6 -->
                     <div class="project-card">
                         <div class="project-content">
-                            <h3 class="project-title">My Portfolio</h3>
-                            <p class="project-subtitle">React + TypeScript</p>
-                            <p class="project-desc">The cybersecurity-themed portfolio you're viewing right now! Built with React, TypeScript, and Tailwind CSS featuring a modern dark theme with cyber aesthetics.</p>
+                            <h3 class="project-title">OSIM</h3>
+                            <p class="project-subtitle">Organizational Simulation System</p>
+                            <p class="project-desc">Built enterprise-style simulation demonstrating OOP principles with robust file handling for persistent data storage of organizational records.</p>
                             <div class="project-tags">
-                                <span class="project-tag">React</span>
-                                <span class="project-tag">TypeScript</span>
-                                <span class="project-tag">Tailwind CSS</span>
-                                <span class="project-tag">+1</span>
+                                <span class="project-tag">C++</span>
+                                <span class="project-tag">OOP</span>
+                                <span class="project-tag">File Handling</span>
                             </div>
                             <div class="project-links">
-                                <a href="#" class="project-link">Live Site →</a>
+                                <a href="https://github.com/alishba-1805/Organizational-Simulation-and-Internal-Management-System" target="_blank" class="project-link">GitHub →</a>
                             </div>
                         </div>
                     </div>
@@ -534,7 +628,7 @@
                                 <span><i class="ri-calendar-line"></i> Dec 2025</span>
                                 <span><i class="ri-key-2-line"></i> 11853063095376</span>
                             </div>
-                            <a href="#" class="cert-link">Show credential →</a>
+                            <a href="https://www.skillfront.com/certifications/SkillFront-SFE01628615bb570-11853063095376.pdf" class="cert-link">Show credential →</a>
                         </div>
 
                         <!-- Cert 2 -->
@@ -551,7 +645,7 @@
                                 <span><i class="ri-calendar-line"></i> Sep 2025</span>
                                 <span><i class="ri-key-2-line"></i> SUQV4UQU0Q6Z</span>
                             </div>
-                            <a href="#" class="cert-link">Show credential →</a>
+                            <a href="https://www.coursera.org/account/accomplishments/verify/SUQV4UQU0Q6Z" class="cert-link">Show credential →</a>
                         </div>
 
                         <!-- Cert 3 -->
@@ -568,7 +662,7 @@
                                 <span><i class="ri-calendar-line"></i> Jul 2025</span>
                                 <span><i class="ri-key-2-line"></i> AI5LOH8ITVKO</span>
                             </div>
-                            <a href="#" class="cert-link">Show credential →</a>
+                            <a href="https://www.coursera.org/account/accomplishments/verify/AI5LOH8ITVKO" class="cert-link">Show credential →</a>
                         </div>
 
                         <!-- Cert 4 -->
@@ -585,7 +679,7 @@
                                 <span><i class="ri-calendar-line"></i> Jul 2025</span>
                                 <span><i class="ri-key-2-line"></i> VWQSVZ5891ZV</span>
                             </div>
-                            <a href="#" class="cert-link">Show credential →</a>
+                            <a href="https://www.coursera.org/account/accomplishments/verify/VWQSVZ5891ZV" class="cert-link">Show credential →</a>
                         </div>
 
                         <!-- Cert 5 -->
@@ -602,7 +696,7 @@
                                 <span><i class="ri-calendar-line"></i> Feb 2025</span>
                                 <span><i class="ri-key-2-line"></i> 0bfvhwf7fz</span>
                             </div>
-                            <a href="#" class="cert-link">Show credential →</a>
+                            <a href="https://belkasoft.thinkific.com/certificates/0bfvhwf7fz" class="cert-link">Show credential →</a>
                         </div>
 
                         <!-- Cert 6 -->
@@ -619,7 +713,46 @@
                                 <span><i class="ri-calendar-line"></i> Jan 2025</span>
                                 <span><i class="ri-key-2-line"></i> cjh4p9oqo7</span>
                             </div>
-                            <a href="#" class="cert-link">Show credential →</a>
+                            <a href="https://belkasoft.thinkific.com/certificates/cjh4p9oqo7" class="cert-link">Show credential →</a>
+                        </div>
+
+                        <!-- Cert 7 -->
+                        <div class="cert-card">
+                            <div class="cert-header">
+                                <div class="cert-icon">
+                                    <i class="ri-shield-check-line"></i>
+                                </div>
+                                <span class="cert-status completed">Completed</span>
+                            </div>
+                            <h4 class="cert-title">SOC Fundamentals</h4>
+                            <p class="cert-issuer">Let's Defend</p>
+                            <div class="cert-meta">
+                                <span><i class="ri-calendar-line"></i> 2026</span>
+                            </div>
+                        </div>
+
+                        <!-- Cert 8 -->
+                        <div class="cert-card">
+                            <div class="cert-header">
+                                <div class="cert-icon">
+                                    <i class="ri-file-word-line"></i>
+                                </div>
+                                <span class="cert-status completed">Completed</span>
+                            </div>
+                            <h4 class="cert-title">Microsoft Word Certified</h4>
+                            <p class="cert-issuer">Microsoft</p>
+                        </div>
+
+                        <!-- Cert 9 -->
+                        <div class="cert-card">
+                            <div class="cert-header">
+                                <div class="cert-icon">
+                                    <i class="ri-file-ppt-line"></i>
+                                </div>
+                                <span class="cert-status completed">Completed</span>
+                            </div>
+                            <h4 class="cert-title">Microsoft PowerPoint Certified</h4>
+                            <p class="cert-issuer">Microsoft</p>
                         </div>
                     </div>
                 </div>
@@ -640,6 +773,20 @@
                             </div>
                             <h4 class="cert-title">Certified Defensive Security Analyst (CDSA)</h4>
                             <p class="cert-issuer">Hack The Box</p>
+                            <div class="cert-meta">
+                                <span><i class="ri-lightbulb-line"></i> Hands-on Preparation</span>
+                            </div>
+                        </div>
+
+                        <div class="cert-card">
+                            <div class="cert-header">
+                                <div class="cert-icon in-progress">
+                                    <i class="ri-loader-4-line"></i>
+                                </div>
+                                <span class="cert-status in-progress-status">In Progress</span>
+                            </div>
+                            <h4 class="cert-title">SOC Analyst Learning Path</h4>
+                            <p class="cert-issuer">Let's Defend</p>
                             <div class="cert-meta">
                                 <span><i class="ri-lightbulb-line"></i> Hands-on Preparation</span>
                             </div>
@@ -680,9 +827,9 @@
                             </div>
                             <div class="contact-text">
                                 <h5>E-MAIL</h5>
-                                <p class="contact-value">anomly18@gmail.com</p>
+                                <p class="contact-value">i242036@isb.nu.edu.pk</p>
                             </div>
-                            <a href="mailto:anomly18@gmail.com" class="contact-send">
+                            <a href="mailto:i242036@isb.nu.edu.pk" class="contact-send">
                                 Send <i class="ri-arrow-right-up-line"></i>
                             </a>
                         </div>
@@ -693,7 +840,7 @@
                             </div>
                             <div class="contact-text">
                                 <h5>WHATSAPP</h5>
-                                <p class="contact-value">+92 329-503-3541</p>
+                                <p class="contact-value">+92 329-5033541</p>
                             </div>
                             <a href="https://wa.me/923295033541" target="_blank" class="contact-send">
                                 Send <i class="ri-arrow-right-up-line"></i>
@@ -706,7 +853,7 @@
                             </div>
                             <div class="contact-text">
                                 <h5>CONTACT NO</h5>
-                                <p class="contact-value">+92 329-503-3541</p>
+                                <p class="contact-value">+92 329-5033541</p>
                             </div>
                             <a href="tel:+923295033541" class="contact-send">
                                 Call <i class="ri-arrow-right-up-line"></i>
@@ -718,7 +865,7 @@
                     <div class="contact-social">
                         <h4 class="contact-section-title">SOCIAL INFO</h4>
                         <div class="social-icons">
-                            <a href="https://www.linkedin.com/in/alishba-inam-75a25b2a6/" target="_blank" class="social-icon" aria-label="LinkedIn">
+                            <a href="https://linkedin.com/in/alishba-inam" target="_blank" class="social-icon" aria-label="LinkedIn">
                                 <i class="ri-linkedin-box-fill"></i>
                             </a>
                             <a href="https://github.com/alishba-1805" target="_blank" class="social-icon" aria-label="GitHub">
@@ -738,6 +885,9 @@
                     <p class="form-description">Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday.</p>
                     
                     <form class="contact-form" id="contactForm">
+                        <input type="hidden" name="_subject" value="New Contact Message from Portfolio Website!">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_captcha" value="false">
                         <div class="form-group">
                             <input type="text" class="form-input" id="name" name="name" placeholder="Name *" required>
                         </div>
@@ -777,7 +927,7 @@
                 <div class="footer-social">
                     <p class="footer-social-title">Connect With Me</p>
                     <div class="footer-social-links">
-                        <a href="https://www.linkedin.com/in/alishba-inam-75a25b2a6/" target="_blank" aria-label="LinkedIn">
+                        <a href="https://linkedin.com/in/alishba-inam" target="_blank" aria-label="LinkedIn">
                             <i class="ri-linkedin-box-fill"></i>
                         </a>
                         <a href="https://github.com/alishba-1805" target="_blank" aria-label="GitHub">
@@ -786,7 +936,7 @@
                         <a href="https://academy.hackthebox.com/dashboard" target="_blank" aria-label="Hack The Box">
                             <i class="ri-shield-star-line"></i>
                         </a>
-                        <a href="mailto:anomly18@gmail.com" aria-label="Email">
+                        <a href="mailto:i242036@isb.nu.edu.pk" aria-label="Email">
                             <i class="ri-mail-line"></i>
                         </a>
                     </div>
@@ -847,15 +997,53 @@
 
     </div>
 
-    <!-- Animated Custom Cursor -->
-    <div class="custom-cursor">
-        <div class="cursor-body">
-            <div class="cursor-core"></div>
-        </div>
-        <div class="cursor-trail"></div>
-    </div>
+    <script src="assets/js/main.js"></script>
+    <script>
+        /* Contact Form AJAX Handler */
+        const contactForm = document.getElementById('contactForm');
+        const formStatus = document.getElementById('formStatus');
 
-    <script src="assests/js/swiper-bundle.min.js"></script>
-    <script src="assests/js/main.js"></script>
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                const submitBtn = contactForm.querySelector('button[type="submit"]');
+                const originalBtnText = submitBtn.textContent;
+                
+                submitBtn.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Sending...';
+                submitBtn.disabled = true;
+                formStatus.textContent = '';
+                formStatus.style.color = '';
+
+                const formData = new FormData(contactForm);
+
+                fetch('https://formsubmit.co/ajax/i242036@isb.nu.edu.pk', {
+                    method: 'POST',
+                    body: formData,
+                    headers: { 'Accept': 'application/json' }
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        formStatus.style.color = '#4caf50';
+                        formStatus.textContent = 'Message sent successfully! I will get back to you shortly.';
+                        contactForm.reset();
+                    } else {
+                        formStatus.style.color = '#f44336';
+                        formStatus.textContent = 'Oops! Something went wrong. Please try again.';
+                    }
+                })
+                .catch(error => {
+                    formStatus.style.color = '#f44336';
+                    formStatus.textContent = 'Oops! Something went wrong. Please check your connection.';
+                })
+                .finally(() => {
+                    submitBtn.textContent = originalBtnText;
+                    submitBtn.disabled = false;
+                    setTimeout(() => { formStatus.textContent = ''; }, 5000);
+                });
+            });
+        }
+    </script>
 </body>
 </html>
